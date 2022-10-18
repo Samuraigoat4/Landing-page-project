@@ -9,6 +9,7 @@ button {
     background-color:#3882f6;
     color:#e5e7eb;
     border-radius: 25px;
+    max-width: 100px;
 }
 
 .header, .footer{
@@ -35,6 +36,7 @@ button {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
+    align-items: center;
 }
 
 .left-side {
@@ -81,6 +83,11 @@ p {
     justify-content: space-around;
     align-items: center;
     gap: 30px;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
 }
 
 .info2 {
